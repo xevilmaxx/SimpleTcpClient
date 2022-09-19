@@ -52,7 +52,7 @@ namespace SimpleTcpClient
         {
             CheckConnT.Elapsed += new ElapsedEventHandler(OnCheckConnT);
             CheckConnT.Interval = 5000;
-            CheckConnT.Enabled = true;
+            CheckConnT.Enabled = false;
             CheckConnT.AutoReset = true;
         }
 
