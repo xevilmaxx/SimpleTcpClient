@@ -4,6 +4,16 @@ C# -> TCP Client Only (but generic and configurable)
 ## Origin:
 https://github.com/BrandonPotter/SimpleTCP
 
+#### Devices tested on:
+Upass Target
+#### Devices migh work on, with minimal config mods:
+Sick Reader
+
+QScan
+
+Any Devices that exposes TCP Server, on which once connected will fire readed Data towards Client
+
+
 ## Fluent API
 
 ### Connection Sample
